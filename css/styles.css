@@ -41,7 +41,8 @@ color: var(--NAVY-BLUE, #2E2F42);
 .info-nav .info-nav-hov{
 color: #2E2F42;
 }
-.info-nav .info-nav-hov:hover{
+.info-nav .info-nav-hov:hover,
+.info-nav .info-nav-hov:focus{
     color: #404BBF;
 }
 button{
@@ -54,6 +55,7 @@ button{
         letter-spacing: 0.64px;
         background-color: #4D5AE5;
     }
-button:hover{
+button:hover,
+button:focus{
     background-color: #404BBF;
 }
