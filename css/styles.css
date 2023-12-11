@@ -6,8 +6,11 @@ body{
 ul{
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+}
+
 .logo-web{
-    width: 44px;
     color: var(--IRIS, #4D5AE5);
         font-family: Raleway;
         font-size: 18px;
@@ -17,9 +20,7 @@ ul{
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.logo-studio {
-  
-    width: 71px;
+.logo-nav {
 color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
@@ -30,24 +31,43 @@ color: var(--NAVY-BLUE, #2E2F42);
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.logo-footer{
-    color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+.info-nav {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
 }
-.info-nav .info-nav-hov{
-color: #2E2F42;
+.info-nav:hover{
+color: #404BBF;
+
 }
-.info-nav .info-nav-hov:hover,
-.info-nav .info-nav-hov:focus{
+.info-nav:active{
     color: #404BBF;
+    
 }
+.info-nav-contact {
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+.info-nav-contact:hover,
+.info-nav-contact:focus{
+  color: #404BBF;
+}
+
 button{
     cursor: pointer;
     color: var(--WHITE, #FFF);
@@ -70,6 +90,14 @@ button:hover,
 button:focus{
     background-color: #404BBF;
 }
-a{
-    text-decoration: none;
+.logo-footer {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
