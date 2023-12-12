@@ -10,6 +10,7 @@ ul {
 .logo-web {
   color:#4d5ae5;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -18,6 +19,7 @@ ul {
 .logo-nav {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -25,6 +27,7 @@ ul {
 }
 .info-nav {
   color:#2e2f42;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -79,6 +82,7 @@ color: #ffffff;
   cursor: pointer;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.64px;
@@ -90,6 +94,7 @@ button:focus {
 }
 .title-info{
   color: #2E2F42;
+  font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -105,6 +110,7 @@ button:focus {
 .title-h-two{
   color:#2E2F42;
     text-align: center;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -130,6 +136,7 @@ button:focus {
 
 .title-portfolio{
   color:#2E2F42;
+  font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -147,6 +154,7 @@ button:focus {
 .logo-footer {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.54px;
