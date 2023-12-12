@@ -6,9 +6,6 @@ body {
 ul {
   list-style-type: none;
 }
-a {
-  text-decoration: none;
-}
 
 .logo-web {
   color:#4d5ae5;
@@ -22,7 +19,7 @@ a {
 }
 .logo-nav {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -48,17 +45,19 @@ a {
 .info-nav:active {
   color: #404bbf;
 }
-.address-nav {
-  font-style: normal;
+.address-nav{
+ font-style: normal;
+
 }
-.info-nav-contact {
-  color: #434455;
+.info-nav-contact{
+color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+ 
 
 .info-nav-contact:hover{
   color: #404bbf;
