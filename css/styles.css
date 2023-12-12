@@ -1,7 +1,7 @@
 body {
-  color: black;
+  color: #434455;
   background-color: #ffffff;
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Roboto', sans-serif;
 }
 ul {
   list-style-type: none;
@@ -16,7 +16,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -26,7 +26,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
@@ -76,20 +76,10 @@ button {
   line-height: 24px;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 button:hover,
 button:focus {
   background-color: #404bbf;
-}
-button {
-  cursor: pointer;
 }
 .logo-footer {
   color: var(--CLOUD, #f4f4fd);
